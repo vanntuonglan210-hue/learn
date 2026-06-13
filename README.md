@@ -1,6 +1,7 @@
 # Git Safety Foundation Practice
 
 **Họ và tên:** Văn Ngọc Tường Lân
+
 **Mã sinh viên:** 25E1020029
 
 ## 1. Mục tiêu thực hành
