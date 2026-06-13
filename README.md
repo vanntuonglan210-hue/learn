@@ -6,7 +6,7 @@ Họ tên: Văn Ngọc Tường Lân
 - Đã tạo 2 Pull Requests để merge vào main.
 
 ## Lệnh Git đã dùng
-- git init, git add, git commit, git push, git branch, git checkout, git merge.
+- git init, git add, git commit, git push, git pull, git branch, git checkout, git merge, git clone, git log, git revert, git reset.
 
 ## Vibe Coding & Git
 Em sử dụng Git làm bộ lọc an toàn: luôn tạo nhánh mới trước khi làm việc, commit nhỏ gọn để dễ quản lý, và chỉ merge vào nhánh chính sau khi đã kiểm tra code kỹ lưỡng.
