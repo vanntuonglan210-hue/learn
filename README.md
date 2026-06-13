@@ -26,7 +26,7 @@ Dự án này được thực hiện nhằm mục đích nắm vững quy trình
 - `git revert <hash>`: Hoàn tác commit.
 
 ## 4. Tư duy về Git trong Vibe Coding
-"Trong môi trường Vibe Coding, nơi AI hỗ trợ sinh code với tốc độ cao, tôi coi Git là 'phanh an toàn' không thể thiếu. Tôi sẽ luôn:
+"Trong môi trường Vibe Coding, nơi AI hỗ trợ sinh code với tốc độ cao, em coi Git là 'phanh an toàn' không thể thiếu. Em sẽ luôn:
 1. **Tạo nhánh mới:** Trước khi yêu cầu AI sinh bất kỳ tính năng nào.
 2. **Commit nhỏ gọn:** Để dễ dàng kiểm soát và cô lập lỗi nếu code từ AI không ổn định.
 3. **Merge có kiểm soát:** Chỉ thực hiện merge vào nhánh chính sau khi đã kiểm tra kỹ lưỡng (review) để đảm bảo hệ thống luôn ở trạng thái ổn định."
