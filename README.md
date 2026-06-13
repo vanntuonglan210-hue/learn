@@ -25,6 +25,19 @@ Dự án này được thực hiện nhằm mục đích nắm vững quy trình
 - `git log --oneline`: Xem lịch sử commit rút gọn.
 - `git revert <hash>`: Hoàn tác commit.
 
+## Nhật ký xử lý lỗi
+### Tình huống Conflict (trên file text.txt - bài thơ Chị em Thúy Kiều)
+- **Cách tạo:** Sửa cùng một dòng đầu tiên ("Đầu lòng hai ả tố nga") ở nhánh `main` và nhánh `feature-conflict-tho`.
+- **Giải quyết:** Thực hiện `git merge`. Khi gặp conflict, đã mở file `text.txt`, xóa các tag đánh dấu của Git và giữ lại nội dung chỉnh sửa cuối cùng, sau đó thực hiện commit để hoàn tất merge.
+
+### Tình huống Revert (trên file text.txt)
+- **Mục tiêu:** Hoàn tác thay đổi tại commit "fix: resolve conflict bai tho".
+- **Thực hiện:**
+  1. Dùng `git log --oneline` để xác định hash commit cuối cùng.
+  2. Chạy lệnh `git revert [Mã hash]`.
+  3. Kiểm tra file `text.txt`: Bài thơ đã tự động trở về định dạng nguyên bản trước khi thực hiện commit fix conflict.
+
+  
 ## Tôi sẽ dùng Git như thế nào khi Vibe Code với AI?
 "Trong môi trường Vibe Coding, nơi AI hỗ trợ sinh code với tốc độ cao, em coi Git là 'phanh an toàn' không thể thiếu. Em sẽ luôn:
 1. **Tạo nhánh mới:** Trước khi yêu cầu AI sinh bất kỳ tính năng nào.
